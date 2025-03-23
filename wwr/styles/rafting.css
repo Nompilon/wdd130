@@ -1,0 +1,83 @@
+:root {
+    --heading-background-color:#DCCCFF;
+    --heading-text-color: #46351D;
+    --background-color: #EEE3AB;
+    --border: 1px #46351D;
+    --text: #E8985E;
+}
+h1 {
+    position: absolute;
+    top: 180px;
+	right: 600px;
+	padding: 0.65rem;
+	opacity: 0.9;
+    color: var(--heading-background-color);
+}
+
+article {
+    position: absolute;
+    text-align: left;
+    top: 300px;
+	right: 550px;
+    box-shadow: 0 0 30px var(--background-color);
+    background: radial-gradient var(--background-color);
+	padding: 0.65rem;
+	opacity: 0.9;
+    color: var(--heading-background-color);
+}
+
+article img {
+    position: absolute;
+    float: right;
+    top: 5px;
+	left: 600px;
+    width: 100px;
+    height: auto;
+}
+
+nav {
+    background-color: var(--heading-background-color);
+    padding: 10px;
+    color: var(--background-color);
+    color: var(--heading-text-color);
+}
+
+a {
+    text-decoration: none;
+}
+
+.hero img {
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+p {
+    padding: 0;
+}
+section {
+    background-color: var(--background-color);
+    padding: 0;
+}
+
+h2 {
+    background-color: var(--background-color);
+}
+
+section img {
+    width: 200px;
+    height: auto;
+    
+}
+
+a img {
+    width: 30px;
+    height: auto;
+}
+
+.footer {
+    margin-top: auto;
+    border-top: var(--border);
+    text-align:end;
+}
