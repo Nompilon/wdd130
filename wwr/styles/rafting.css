@@ -5,10 +5,18 @@
     --border: 1px #46351D;
     --text: #E8985E;
 }
+* {
+	margin: 0;
+	padding: 0 5px 0 5px;
+}
 
+header nav{
+    padding: 20px;
+
+}
 h1 {
     position: absolute;
-    top: 120px;
+    top: 140px;
 	right: 500px;
 	padding: 0.65rem;
 	opacity: 0.9;
@@ -21,7 +29,7 @@ article{
 article p {
     position: absolute;
     text-align: left;
-    top: 180px;
+    top: 200px;
     right:450px;
     width:50%;
     height: 10%;
@@ -37,28 +45,28 @@ article img {
     float: left;
     top: 212px;
 	left: 790px;
-    width: 90px;
+    width: 95px;
     height: auto;
 }
 h2 {
     color: var(--heading-text-color);
+    padding: 0 0px 0 20px
+
 }
 section p {
     color: var(--heading-text-color);
-    padding: 0 0 0 0;
+    padding: 0 0px 0 20px
 }
-nav {
-    background-color: var(--heading-background-color);
-    padding: 10px;
-    color: var(--background-color);
+.nav {
     color: var(--heading-text-color);
+
 }
 
 .hero div {
     position: relative;
 }
 
-li img {
+ul img {
     width: 100%;
     height: auto;
     display: block;
@@ -67,7 +75,7 @@ li img {
 section img {
     width: 700px;
     height: 500px;
-    padding: 0 0 0 0;    
+    padding: 20px 0px 0 20px;    
 }
 
 a img {
@@ -76,8 +84,10 @@ a img {
 
 }
 
-.footer {
+footer {
     margin-top: auto;
     border-top: var(--border);
-    text-align:end;
+    text-align:left;
+    padding: 20px;
+    
 }
