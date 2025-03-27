@@ -34,7 +34,7 @@ article p {
     width:50%;
     height: 10%;
     box-shadow: 0 0 50px var(--background-color);
-    color: radial-gradient var(--background-color);
+    color: var(--background-color);
 	padding: 7rem 10rem 0.001rem 1rem;
 	opacity: 0.9;
     color: var(--heading-background-color);
