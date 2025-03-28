@@ -17,7 +17,7 @@ header nav{
 h1 {
     position: absolute;
     top: 140px;
-	right: 500px;
+	right: 450px;
 	padding: 0.65rem;
 	opacity: 0.9;
     color: var(--heading-background-color);
