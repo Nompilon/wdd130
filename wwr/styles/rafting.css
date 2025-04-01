@@ -14,7 +14,6 @@ header{
     display: grid;
     grid-template-columns: 3fr 1fr;
     align-items: center;
-    max-width: auto;
     margin:0;
     border: solid var(--heading-background-color);
     background-color: var(--heading-background-color);
@@ -85,11 +84,9 @@ h1 {
     position: absolute;
     text-align: left;
     width:80%;
-    /*height: 10%;*/
     padding: 70px 0 0 60px;
     color: var(--heading-background-color);
     font-size: large;
-    width: min(auto, 100%);
 
 }
 
@@ -118,7 +115,7 @@ h1 {
 	margin: 0.001 rem;
     color: var(--heading-text-color);
    /*adding:*0 0 0 0;*/
-    font-weight: 700;
+    font-weight:bold;
 
 }
 .two img{
@@ -129,7 +126,7 @@ h1 {
 }
 .container3{
     display:grid;
-    grid-template-columns: 1fr 1fr 1fr 1f 1f;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     padding: 0;
     grid-gap: 10px;
     margin-inline-start:40px;
