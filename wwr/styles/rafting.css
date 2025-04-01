@@ -12,7 +12,7 @@
 
 header{
     display: grid;
-    grid-template-columns: 3fr 1fr;
+    grid-template-columns: 2fr 1fr;
     align-items: center;
     margin:0;
     border: solid var(--heading-background-color);
@@ -30,15 +30,16 @@ header{
     flex-wrap: wrap;
     justify-content: space-around;
     list-style: none;
+    justify-content: flex-end;
     margin: 0 0.25rem 0 1rem; 
-    border-spacing: 1rem;   
 }
 .navigation a {
 	display: block;
 	color:var(--heading-text-color);
-	padding: 20px;
+	padding: 1px;
 	text-decoration: none;
 	font-size: 1rem;
+    margin: .50rem; 
 }
 
 .navigation a:hover {
@@ -60,7 +61,7 @@ ul img {
 h1 {
     position: absolute;
     top:2%;
-	right:35%;
+	right:33%;
 	padding: 0.65rem;
 	opacity: 0.9;
     color: var(--heading-background-color);
@@ -84,9 +85,10 @@ h1 {
     position: absolute;
     text-align: left;
     width:80%;
-    padding: 70px 0 0 60px;
+    padding:50px 0 0 60px;
     color: var(--heading-background-color);
     font-size: large;
+    max-width: 4rem 100%;
 
 }
 
@@ -137,7 +139,8 @@ h1 {
 .columns-3{
     grid-column: 1/6;
     place-items: center;
-    margin:10px 0 20px 0;
+    margin:10px 10px 20px 10px;
+   
 }
 
 
@@ -146,9 +149,9 @@ h2 {
     padding: 0 0px 10px 20px
 }
 .three img{
-    width: 320px;
-    height:270px;  
-    margin:0.25rem;
+    width: 80%;
+    height:160px;  
+    margin:0;
     margin-inline-start:2rem;
 }
 
@@ -168,7 +171,7 @@ a{
 
 footer{
     display: grid;
-    grid-template-columns: 2.5fr 1.5fr;
+    grid-template-columns: 2.0fr 1fr;
     align-items: center;
     background-color: var(--heading-background-color);
     margin: 20px 0 20px 0;
@@ -176,7 +179,7 @@ footer{
 
 }
 .details{
-    margin-top: auto;
+    /*margin-top: auto;*/
     border-top: var(--border);
     padding: 20px;
     text-align: end;       
@@ -186,15 +189,13 @@ footer{
 .sociallinks{
     display:flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin: 0 0.8rem 0 35rem;
-    
-
-    
+    justify-content: flex-end;
+       
 }
 .sociallinks img{
     background-color: whitesmoke;
-    padding:0.6rem;
-    width: 20px;
+    padding:0.5rem;
+    width: 30px;
     height: auto;
+    margin: .25rem;  
 }
