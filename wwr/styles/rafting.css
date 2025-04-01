@@ -153,6 +153,7 @@ h2 {
     height:160px;  
     margin:0;
     margin-inline-start:2rem;
+    flex:1;
 }
 
 figcaption {
@@ -190,6 +191,7 @@ footer{
     display:flex;
     flex-wrap: wrap;
     justify-content: flex-end;
+   
        
 }
 .sociallinks img{
@@ -197,5 +199,6 @@ footer{
     padding:0.5rem;
     width: 30px;
     height: auto;
-    margin: .25rem;  
+    margin: .25rem;
+    flex:1; 
 }
