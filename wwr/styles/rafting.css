@@ -88,7 +88,7 @@ h1 {
     padding:50px 0 0 60px;
     color: var(--heading-background-color);
     font-size: large;
-    max-width: 4rem 100%;
+    /*max-width: 4rem 100%;*/
 
 }
 
