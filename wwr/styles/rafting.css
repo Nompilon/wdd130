@@ -54,7 +54,6 @@ header{
 ul img {
     width: 100%;
     height: auto;
-    /*object-fit: cover;*/
     display: block;
     list-style: none;
 }
@@ -88,7 +87,6 @@ h1 {
     padding:50px 0 0 60px;
     color: var(--heading-background-color);
     font-size: large;
-    /*max-width: 4rem 100%;*/
 
 }
 
