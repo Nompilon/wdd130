@@ -256,6 +256,7 @@ html {
 
   .container5{
     background-color: var(--background-color);
+    padding: 1rem;
   }
  button {
     border: none;
