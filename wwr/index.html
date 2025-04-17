@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is the Home page for the rafting site website.">
+    <meta name="author" content="Nompilo Ngwenya">
+    <title>Exciting Expeditions | Home page</title>
+    <link rel="stylesheet" href="styles/rafting.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/59f7739bbe.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/rafting.webp" alt="logo">
+        </div>
+        <nav>
+            <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <main>
+        <div class="hero">
+            <div class="banner">
+                <img src="images/hero.webp" alt="banner">
+            </div>   
+            <h1>And the fun never ceases. If you don't believe me, check it for yourself.</h1>
+            
+        </div>
+        <section class="container8">
+            <div>
+                <p>To prove me wrong, visit our trips page and check out the offers.</p>
+                <button id="navigateButton">Available Rides</button>
+                <script>
+                document.getElementById("navigateButton").onclick = function () {
+                window.location.href = "https://nompilon.github.io/wdd130/wwr/trips.html";
+                };
+                </script>
+            </div>
+            
+            <div>
+                <p>We are only a click away! Don't hesistate to get in touch with us </p>
+                <button id="navigateButton2">Get in touch</button>
+                <script>
+                document.getElementById("navigateButton2").onclick = function () {
+                window.location.href = "https://nompilon.github.io/wdd130/wwr/contact.html";
+                };
+                </script>
+            </div>
+
+        </section>
+        
+            <div class="heading"><h3>Sign Up For Our Newsletter</h3></div>
+        
+        <section class="container9">
+            <form>
+                <fieldset class="newsletter">
+                    <div class="form-item column2">
+                       <input type="text" id="fname" name="fname" placeholder="Jane Doe">
+                        <input type="text" id="useremail" name="useremail" placeholder="example@example.com">    
+                        <button class="trips">Get in touch</button>  
+                    </div> 
+                </fieldset>    
+            </form>
+        </section>
+        <section class="container7">
+            <article class="seven">
+                <figure>
+                <img src="images/site1.webp" alt="The quite place">
+                <figcaption>Site 1- Jump and raft</figcaption>
+                </figure>
+            </article>
+            <article class="seven">
+                <figure>
+                <img src="images/site2.webp" alt="The open waters">
+                <figcaption>Site 2- The open water</figcaption>
+                </figure>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <div class="details">
+            <p>&copy; 2025  &#10070; Exciting Expeditions &#10070; Nompilo Ngwenya </p>
+            <a href="https://wireframe.cc/kXhFPj" class="footer-menu">Wireframe</a>
+        </div>
+        <nav class="sociallinks">
+            <p>Follow Us</p>
+            <a href="https://facebook.com" >
+                <img src="images/facebook.webp" alt="Facebook">
+            </a>
+            <a href="https://twitter.com" >
+                <img src="images/twitter.webp" alt="Twitter">
+            </a>
+            <a href="https://instagram.com" >
+                <img src="images/instagram.webp" alt="Instagram">
+            </a>
+        </nav>
+    </footer>
+</body>
+</html>
